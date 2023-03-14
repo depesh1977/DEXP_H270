@@ -93,7 +93,7 @@ TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_NO_SCREEN_BLANK := true
 DEVICE_RESOLUTION := 600x1024
-BOARD_HAS_FLIPPED_SCREEN := true
+#BOARD_HAS_FLIPPED_SCREEN := true
 
 # Show build time on the splash screen
 TW_DEVICE_VERSION=$(shell date '+%Y%m%d') by depesh1977
