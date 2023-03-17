@@ -78,7 +78,7 @@ TW_THEME := landscape_mdpi
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
-TW_THEME := portrait_hdpi
+#TW_THEME := portrait_hdpi
 HAVE_SELINUX := true
 RECOVERY_SDCARD_ON_DATA := true
 TW_NO_LEGACY_PROPS := true
@@ -98,7 +98,7 @@ TW_IGNORE_MAJOR_AXIS_0 := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 RECOVERY_TOUCHSCREEN_SWAP_XY := true
 RECOVERY_TOUCHSCREEN_FLIP_Y := true
-TW_ROTATION := 90
+TW_ROTATION := 180
 
 # Show build time on the splash screen
 TW_DEVICE_VERSION=$(shell date '+%Y%m%d') by depesh1977
